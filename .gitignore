@@ -1,0 +1,28 @@
+# Binaries and build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/shago
+/solution
+
+
+# Test and coverage artifacts
+*.test
+*.out
+coverage.txt
+
+# Python artifacts (from running grade.py / tests)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
